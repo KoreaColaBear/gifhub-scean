@@ -81,7 +81,7 @@ body {
   font-size: 40px;
 }
 
-.filter {
+/* filter {
   width: 95vw;
   display: flex;
   justify-content: flex-end;
@@ -89,7 +89,7 @@ body {
 
 .filter i {
   margin-left: 10px;
-}
+} */
 .content-container {
   width: 100vw;
   height: 70vh;
@@ -112,8 +112,19 @@ body {
   background-color: blanchedalmond;
 }
 
-.ad {
-  width: 90vw;
-  height: 30px;
-  border: 2px solid;
+.more {
+  width: 95vw;
+  display: flex;
+  justify-content: flex-end;
+}
+
+.more a {
+  text-decoration: none;
+  color: black;
+  margin-left: 10px;
+}
+
+.test_content_row {
+  display: flex;
+  justify-content: space-evenly;
 }
